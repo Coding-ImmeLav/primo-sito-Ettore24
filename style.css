@@ -1,1 +1,51 @@
+/* per chiamare i tag posso semplicemente scrivergli */
 
+header {
+    background-color: blue;
+    height: 8vh; /* 8% dell'altezza della finestra */
+    /* per dire a header dove devono stare le cose si usa flex */
+    display: flex;
+    justify-content: space-around; /* allineo in orizzontale */
+    align-items: center; /* allineo in verticale */
+}
+
+/* personalizzo i pulsanti */
+button {
+    background-color: transparent; /* sfondo trasparente */
+    color: white; /* colore del testo */
+    border: none; /* bordo nullo */
+    font-size: 1.2em; /* dimensione del testo */
+    font-weight: bold; /* grassetto */
+    font-family: monospace;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+    height: 92vh; /* 92% dell'altezza della finestra */
+}
+
+/* metto h1 e h3 in centro */
+h1, h3 {
+    text-align: center;
+    font-family: monospace;
+    color: white;
+}
+
+/* dimensione a info */
+.info {
+    height: 70vh;
+    background-color: beige;
+    display: flex;
+}
+
+.destra, .sinistra {
+    width: 50%;
+}
+
+.immagine {
+    /* dimensione che si adatta alla colonna */
+    width: 100%;
+}
